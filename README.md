@@ -1,1 +1,2 @@
-# Advanced-Go-Programming
+# Command-Line-Interface-Tool
+Simple CLI written in Go
