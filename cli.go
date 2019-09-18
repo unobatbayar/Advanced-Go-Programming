@@ -24,7 +24,7 @@ func main(){
 	app.Commands = []cli.Command{
 		{
 			Name: "ns",
-			Usage: "Look up the name server",
+			Usage: "Looks up the name server for the given parameter",
 			Flags: flags,
 			Action: func(c *cli.Context) error{
 				ns, err := net.LookupNS(c.String("host"))
@@ -33,6 +33,22 @@ func main(){
 				}
 				for i := 0; i < len(ns); i++{
 					fmt.Println(ns[i].Host)
+				}
+				return nil
+			},
+		},
+
+		{
+			Name: "ip",
+			Usage: "Looks up the IP address for the given paramter",
+			Flags: flags,
+			Action: func(c *cli.Context) error{
+				ip, err := net.LookupIP(c.String("host"))
+				if err != nil{
+					fmt.Println(err)
+				}
+				for i := 0; i < len(ip); i++{
+					fmt.Println(ip[i])
 				}
 				return nil
 			},
