@@ -7,7 +7,7 @@
     <a href="https://github.com/unobatbayar/command-line-interface-tool/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> to learn from a <a href="https://www.youtube.com/watch?v=i2p0Snwk4gc"> youtube tutorial</a>.  </sub>
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> by learning from a <a href="https://www.youtube.com/watch?v=i2p0Snwk4gc"> youtube tutorial</a>.  </sub>
 </div>
 
 ## How to run
