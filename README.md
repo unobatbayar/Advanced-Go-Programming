@@ -1,5 +1,14 @@
-# Command-Line-Interface-Tool
-Simple CLI written in Go
+<div align="center">
+  <h1><code>command-line-interface-tool</code></h1>
+
+  <strong>Simple CLI written in Go.</strong>
+
+<h3>
+    <a href="https://github.com/unobatbayar/algorithms/pull/new/master">Contribute</a>
+  </h3>
+
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for learning.  </sub>
+</div>
 
 ## How to run
 
