@@ -20,5 +20,5 @@
 For commands e.g
 
 ```
-> go run namer.go
+1. go run cli.go ns --host konple.com
 ```
